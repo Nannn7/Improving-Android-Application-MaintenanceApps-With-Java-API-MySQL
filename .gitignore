@@ -31,3 +31,9 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+**/caches/jars-9/
+**/wrapper/dists/
+**/*.jar
+**/*.zip
+
