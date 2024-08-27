@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modul.DefinisiActivity"
+    android:background="@drawable/ayosemangat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Alarm"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_modul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Modul"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Alarm"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp" />
+        <TextView
+            android:id="@+id/txt_nama_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Alarm"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp" />
+
+        <LinearLayout
+            android:id="@+id/layout_kosong"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:paddingTop="7dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal"
+            android:background="@color/colorLightGrey"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/colorDark"
+                android:hint="Loading data ..." />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvDefinisi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp"
+            android:paddingTop="7dp"
+            android:scrollbarAlwaysDrawHorizontalTrack="true" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

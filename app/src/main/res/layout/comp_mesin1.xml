@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="13dp"
+    android:paddingBottom="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ayosemangat">
+
+    <TextView
+        android:id="@+id/txt_judul_mnt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Mesin"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Waktu error" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/time_error_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="no mesin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="No Mesin" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/nomesin_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="no mesin" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Proses" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/proses_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="proses" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Line" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/line_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="line" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Model" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/model_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="model" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Manipulator" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/manipulator_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="manipulator" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Fan Motor" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/fanmotor_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="fan motor" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Kontroller" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/kontroller_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="kontroller" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="No Serial" />
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=":" />
+        <TextView
+            android:id="@+id/noserial_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="no serial" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="Umur Mesin"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/umur_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="umur"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

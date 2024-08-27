@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_mnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/color_component"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_info_mnt"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/color_menu"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_gravity="center_horizontal"
+                        android:textStyle="bold"
+                        android:hint="Line" />
+                    <TextView
+                        android:id="@+id/txt_nomesin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="No Mesin" />
+                    <TextView
+                        android:id="@+id/txt_proses_mesin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="Proses Mesin" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txt_namapic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorDark"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Nama PIC Maintenance" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="17sp"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Waktu error mesin :" />
+                <TextView
+                    android:id="@+id/txt_time_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorDark"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Waktu error mesin" />
+                <TextView
+                    android:id="@+id/txt_judul_ket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="17sp"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Waktu mulai maintenance :" />
+                <TextView
+                    android:id="@+id/txt_time_mulai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="7dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorDark"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Waktu mulai maintenance" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
